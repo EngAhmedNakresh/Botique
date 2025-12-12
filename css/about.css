@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-font-color:#353535;
+    --font-color:#6a7282;
+}
+@font-face {
+    font-family: 'LibertinusSerifDisplay';
+    src: url('../fonts/LibertinusSerifDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'LibertinusSerifDisplay', sans-serif;
+    
+}
+.container-83{
+    width: 83%;
+    margin: 0 auto;
+}
+
+/* navbar section  */
+.img_nav{
+    width: 12%;
+    margin: 0 7px;
+}
+.later{
+    margin: 0 0 0 7px;
+}
+
+/* about section  */
+span{
+    color: var(--font-color);
+    margin-right: 5px;
+}
+.about h1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.about h1::after{
+    content: "";
+    display: inline-block;
+    background-color: var(--main-font-color);
+    width: 40px;
+    height: 2px;
+    margin-left:5px;
+}
+.content_about p{
+    max-width: 75%;
+}
+.content_about h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* why choose us section  */
+.sec2 h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.sec2 h3::after{
+    content: "";
+    display: inline-block;
+    background-color: var(--main-font-color);
+    width: 40px;
+    height: 2px;
+    margin-left:5px;
+}
+.three_div{
+    border: 1px solid black;
+    padding: 75px 40px!important;
+}
+.sec2 h4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+/* start conect me section  */
+form input:focus{
+    outline: none;
+    border-color: inherit;
+    box-shadow: none;
+}
+form input{
+    width: 40%;
+    height: 45px;
+    border: 1px solid black;
+    padding: 2px 10px;
+}
+form button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+}
+
+/* footer part  */
+.imge_footer img{
+    width: 15%!important;
+    margin-bottom: 12px;
+}
+.imge_footer p{
+    max-width: 75%;
+}
+footer h3{
+    font-size: 19px;
+    font-weight: 600;
+}
+footer ul li{
+    list-style: none;
+}
